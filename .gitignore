@@ -1,0 +1,47 @@
+# === macOS ===
+.DS_Store
+*.DS_Store
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+.parrotai*/
+
+# === Virtual Environments ===
+parrotai-env/
+parrotai310-env/
+
+tortoise-tts/tortoise/voices/einstein_clean/processed/
+
+# === Logs & Cache ===
+*.log
+processed/
+processed/_processor.log
+
+# === Audio Artifacts ===
+*.mp3~
+*.wav~
+*.aif
+*.aiff
+*.m4a
+
+# Keep shell scripts in tools
+!tools/*.sh
+
+# === Large Models & Checkpoints ===
+tortoise-tts/tortoise/voices/*
+!tortoise-tts/tortoise/voices/README.md
+
+# === Editors & IDEs ===
+.vscode/
+.idea/
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Misc ===
+*.swp
+*.tmp
