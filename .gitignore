@@ -45,3 +45,6 @@ tortoise-tts/tortoise/voices/*
 # === Misc ===
 *.swp
 *.tmp
+
+# Ignore macOS Automator workflows
+*.workflow
